@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="/script/code.js" defer></script>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/calendario.css">
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> <!-- Lottie Files Tempo-->
+    <!-- Fim Scripts -->
+
+</head>
+<body>
+    <header id="topMenuHeader">
+    </header>
+    <div id="caixa-externa">
+        <div class="caixa1-externa">
+            <h2 class="clima-control">Clima</h2>
+            <lottie-player class="animation-solar" src="https://assets10.lottiefiles.com/packages/lf20_wuqUXi.json"  background="transparent"  speed="1" hover loop  autoplay></lottie-player>
+            <div>
+                <p> Curitiba - PR | 24 Graus </p>
+            </div>
+        </div>
+        <div class="caixa2-externa">
+            <h2> Calculadora</h2>
+        </div>
+    </div>
+    <hr class="line-divisor">
+
+    <h2> Calendário </h2>
+    <div id="caixa-externa-calendario">
+        <div class="month">
+            <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>August<br><span style="font-size:18px">2021</span></li>
+            </ul>
+        </div>
+        
+        <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+        </ul>
+        
+        <ul class="days">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li><span class="active">10</span></li>
+            <li>11</li>
+            ...etc
+        </ul> 
+    </div>
+</body>
+</html>
